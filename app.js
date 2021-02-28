@@ -6,7 +6,7 @@ const Musician = require('./models/musician');
 const musicianRoutes = require('./routes/musician');
 
 const app = express();
-const port = 3001;
+const port = 8080;
 
 // include routes
 app.use('/musician', musicianRoutes);
